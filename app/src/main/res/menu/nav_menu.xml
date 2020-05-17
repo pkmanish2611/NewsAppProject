@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/nationalmenu1"
+        android:title="National" />
+    <item
+        android:id="@+id/internationalmenu"
+        android:title="International" />
+    <item
+        android:id="@+id/sportsmenu"
+        android:title="Sports" />
+    <item
+        android:id="@+id/worldmenu"
+        android:title="World" />
+    <item
+        android:id="@+id/technologymenu"
+        android:title="Technology" />
+    <item
+        android:id="@+id/politicsmenu"
+        android:title="Politics" />
+    <item
+        android:id="@+id/astrologymenu"
+        android:title="Astrology" />
+    <item
+        android:id="@+id/ontactitem"
+        android:title="Contact us">
+        <menu >
+            <item
+                android:id="@+id/mailitem"
+                android:title="Mail us" />
+            <item
+                android:id="@+id/callitem"
+                android:title="Call" />
+        </menu>
+    </item>
+</menu>
